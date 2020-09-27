@@ -1,54 +1,46 @@
 {
   "backgroundType": "gradient",
   "plainBackgroundMode": "daylight",
-  "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
-  "FirstName": "Hashir",
+  "gradientColors": "#ed410c, #b5bf08, #23A6D5, #11ba92",
+  "FirstName": "Pascal",
   "MiddleName": "",
-  "LastName": "Shoaib",
-  "devDesc": "| Engineer | Programmer | Web Developer | Photographer | Athlete | Artist ",
+  "LastName": "Lehr",
+  "devDesc": "| Anwendungsentwickler | Student (Informatik) | Feuerwehrmann | SmartHome-Enthusiast ",
   "icons": [
     {
       "id": 0,
       "image": "fa-github",
-      "url": "https://github.com/hashirshoaeb",
+      "url": "https://github.com/plehr",
       "style": "socialicons"
     },
     {
       "id": 1,
-      "image": "fa-facebook",
-      "url": "https://www.facebook.com/hashirshoaeb",
+      "image": "fa-xing",
+      "url": "https://www.xing.com/profile/Pascal_Lehr/cv",
       "style": "socialicons"
     },
     {
       "id": 2,
-      "image": "fa-instagram",
-      "url": "https://www.instagram.com/hashirshoaeb/",
-      "style": "socialicons"
+      "image": "far fa-comment-dots",
+      "url": "https://threema.id/N9WJ72V4"
     },
     {
       "id": 3,
-      "image": "fa-linkedin",
-      "url": "https://www.linkedin.com/in/hashirshoaeb/",
-      "style": "socialicons"
-    },
-    {
-      "id": 4,
-      "image": "fa-twitter",
-      "url": "https://www.twitter.com/hashirshoaeb/",
-      "style": "socialicons"
+      "image": "fas fa-lock",
+      "url": "pgp_pub.asc"
     }
   ],
-  "aboutHeading": "About Me",
-  "showInstaProfilePic": true,
+  "aboutHeading": "Über mich",
+  "showInstaProfilePic": false,
   "instaLink": "https://www.instagram.com/",
-  "instaUsername": "hashirshoaeb",
+  "instaUsername": "plehr",
   "instaQuerry": "/?__a=1",
-  "aboutDescription": "I'm Computer Engineer from NUST CEME, Pakistan with 3+ years of experience in web development. I’m currently the Vice President of student body at Emerging Technologies Research Lab(ETL) and a former Intern at RiseTech. I'm passionate about teaching machines how to think",
-  "projectHeading": "Recent Projects",
+  "aboutDescription": "Ich bin Fachinformatiker für Anwendungsentwicklung und Informatikstudent an der technischen Hochschule Bingen am Rhein. Nebenbei beschäftige ich mich mit mobile payment Lösungen und SmartHome-Systemen.",
+  "projectHeading": "Letzte Projekte",
   "gitHubLink": "https://api.github.com/users/",
-  "gitHubUsername": "hashirshoaeb",
+  "gitHubUsername": "plehr",
   "gitHubQuerry": "/repos?sort=updated&direction=desc",
   "projectsLength": 4,
-  "showNavigationbar": true,
+  "showNavigationbar": false,
   "showBlog": false
 }

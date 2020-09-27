@@ -4,16 +4,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./App.css";
 import {
-  showNavigationbar,
-  showBlog,
+  showNavigationbar
 } from "./editable-stuff/configurations.json";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import { Blog } from "./components/blog/Blog";
-import BlogPost from "./components/blog/BlogPost";
+import Impressum from "./components/home/Impressum";
 
 const Home = () => {
   return (
@@ -21,6 +19,7 @@ const Home = () => {
       <MainBody />
       <AboutMe />
       <Project />
+      <Impressum />
     </Fragment>
   );
 };
@@ -29,8 +28,6 @@ const App = () => (
   <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
     {showNavigationbar && <Navbar />}
     <Route path="/" exact component={Home} />
-    {showBlog && <Route path="/blog" exact component={Blog} />}
-    {showBlog && <Route path="/blog/:id" component={BlogPost} />}
     <Footer />
   </BrowserRouter>
 );

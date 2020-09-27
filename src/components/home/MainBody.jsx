@@ -55,14 +55,22 @@ const MainBody = () => {
               </a>
             ))}
           </div>
-          <a
+          <p><a
             className="btn btn-outline-light btn-lg"
             href="#aboutme"
             role="button"
             aria-label="Learn more about me"
           >
-            More about me
-          </a>
+            Mehr über mich
+          </a></p>
+          <p><a
+            className="btn btn-outline-light btn-lg"
+            href="https://blog.plehr.de"
+            role="button"
+            aria-label="Besuche meinen Blog"
+          >
+            Blog
+          </a></p>
         </div>
       </div>
     </div>

@@ -1,13 +1,12 @@
 {
   "name": "developers-portfolio",
-  "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "http://hashirshoaeb.com",
+  "description": "Persönliche Webseite von Pascal Lehr. Hier kannst du dich über meine aktuellen Projekte informieren.",
+  "homepage": "http://plehr.de",
   "version": "1.0.0",
   "private": true,
   "author": {
-    "name": "Hashir Shoaib",
-    "email": "hashirshoaeb@gmail.com",
-    "url": "https://github.com/hashirshoaeb"
+    "name": "Pascal Lehr",
+    "url": "https://github.com/plehr"
   },
   "dependencies": {
     "@popperjs/core": "^2.1.1",

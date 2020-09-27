@@ -14,6 +14,13 @@ const Footer = () => {
         aria-label="My GitHub"
       >
         Hashir Shoaib
+      </a>{" "} and <a
+        className="badge badge-dark"
+        rel="noopener"
+        href="https://github.com/plehr"
+        aria-label="My GitHub"
+      >
+        Pascal Lehr
       </a>{" "}
       using <i className="fab fa-react"></i>
       <p>
