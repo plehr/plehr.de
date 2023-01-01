@@ -26,11 +26,6 @@
     },
     {
       "id": 3,
-      "image": "far fa-comment-dots",
-      "url": "https://threema.id/N9WJ72V4"
-    },
-    {
-      "id": 4,
       "image": "fas fa-lock",
       "url": "pgp_pub.asc"
     }
