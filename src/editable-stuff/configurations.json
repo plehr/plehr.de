@@ -5,7 +5,7 @@
   "FirstName": "Pascal",
   "MiddleName": "",
   "LastName": "Lehr",
-  "devDesc": "| Anwendungsentwickler | Student (Informatik) | Feuerwehrmann | SmartHome-Enthusiast ",
+  "devDesc": "IT @ Sea | B.Sc. | Feuerwehrmann | SmartHome-Enthusiast ",
   "icons": [
     {
       "id": 0,
@@ -28,6 +28,12 @@
       "id": 3,
       "image": "fas fa-lock",
       "url": "pgp_pub.asc"
+    },
+    {
+      "id": 4,
+      "image": "fa-linkedin",
+      "url": "https://www.linkedin.com/in/plehr",
+      "style": "socialicons"
     }
   ],
   "aboutHeading": "Über mich",
@@ -35,7 +41,7 @@
   "instaLink": "https://www.instagram.com/",
   "instaUsername": "plehr",
   "instaQuerry": "/?__a=1",
-  "aboutDescription": "Ich bin Fachinformatiker für Anwendungsentwicklung und Informatikstudent an der technischen Hochschule Bingen am Rhein. Nebenbei beschäftige ich mich mit mobile payment Lösungen und SmartHome-Systemen.",
+  "aboutDescription": "Ich bin Seefahrer und kümmere mich um die IT auf einem Kreuzfahrtschiff. Nebenbei beschäftige ich mich mit mobile payment Lösungen und SmartHome-Systemen.",
   "projectHeading": "Letzte Projekte",
   "gitHubLink": "https://api.github.com/users/",
   "gitHubUsername": "plehr",
