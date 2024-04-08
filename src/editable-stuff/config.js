@@ -1,35 +1,27 @@
 // Navigation Bar SECTION
 const navBar = {
-  show: true,
+  show: false,
 };
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  gradientColors: "#ed410c, #b5bf08, #23A6D5, #11ba92",
+  firstName: "Pascal",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Lehr",
+  message: " B.Sc. | Feuerwehrmann | SmartHome-Enthusiast ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://github.com/plehr",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/pascal.lr/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "hhttps://www.linkedin.com/in/plehr",
     },
   ],
 };
@@ -50,12 +42,12 @@ const mainBody = {
 
 const about = {
   show: true,
-  heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
-  imageSize: 375,
+  heading: "Über mich",
+  imageLink: "https://www.gravatar.com/avatar/1d114b8c0a8eabcc80fee05a71bea51b?s=200",
+  imageSize: 200,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Mein Name ist Pascal Lehr. Nach meiner Ausbildung als Fachinformatiker für Anwendungsentwicklung habe ich Informatik an der TH Bingen studiert. In meiner Freizeit beschäftige ich mich mit Smarthome-Systemen und ich bin ehrenamtlicher Feuerwehrmann.",
+  resume: "",
 };
 
 // PROJECTS SECTION
@@ -65,8 +57,8 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  heading: "Letzte Projekte",
+  gitHubUsername: "plehr", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -97,7 +89,7 @@ const leadership = {
 
 // SKILLS SECTION
 const skills = {
-  show: true,
+  show: false,
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
@@ -124,10 +116,10 @@ const skills = {
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Impressum",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Diese Seite ist laut § 55 RStV eine rein private Seite und benötigt somit kein Impressum. Es werden auf dieser Seite keine Werbebanner oder sonstige kommerzielle Tätigkieten ausgeführt. Bei Fragen oder Anregungen können Sie mich gerne per E-Mail oder LinkedIn kontaktieren.",
+  email: "vorname@domain.tld",
 };
 
 const experiences = {
