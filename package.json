@@ -11,7 +11,6 @@
     "url": "https://github.com/hashirshoaeb"
   },
   "scripts": {
-    "prebuild": "node scripts/favicons.js",
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
