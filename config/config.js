@@ -1,10 +1,9 @@
 
-import profile from './profile.png';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "Pascal",
   links: [
     {
       title: "About",
@@ -12,49 +11,37 @@ export const navigation = {
     },
     {
       title: "Projects",
-      link: "#projects",
-    },
-    {
-      title: "Contact",
-      link: "#contact",
-    },
-    {
-      title: "Links",
-      link: "/links",
+      link: "https://github.com/plehr",
     },
     {
       title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
+      link: "https://blog.plehr.de",
     }
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
-  image: profile.src,
+  title: "Hey, I'm Pascal",
+  description: "Cloud Engineer | Firefighter | former cruise ship IT Admin ",
+  image: "https://0.gravatar.com/avatar/81bd313ec2ac3c6f3dc26e1fbbef0956204ec37c3b0254b94491e4c5e004ba1e?size=256",
   buttons: [
     {
       title: "Contact Me",
-      link: "#contact",
+      link: "https://linkedin.com/in/plehr/",
       isPrimary: true,
-    },
-    {
-      title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
-      isPrimary: false,
-    },
+    }
   ],
 }
 
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "I graduated from Technical University of Applied Sciences Bingen in 2022 with a degree in Computer Science.",
+    "I am fascinated from cloud computing and here we are... Welcome to my Kubernetes cluster. ",
   ],
 }
 
+export const work= {};
+/*
 export const work = {
   title: "What I do",
   cards: [
@@ -70,8 +57,10 @@ export const work = {
     }
   ],
 }
+  */
 
-export const projects = {
+export const projects = {};
+/*{
   title: "Projects",
   cards: [
     {
@@ -114,8 +103,10 @@ export const projects = {
     },
   ],
 }
+*/
 
-export const contact = {
+export const contact = {};
+/*{
   title: "Get in touch",
   description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
   buttons: [
@@ -131,39 +122,32 @@ export const contact = {
     },
   ]
 }
+  */
 
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
-  image: profile.src,
+  title: "Pascal Lehr",
+  description: "Cloud Engineer | Firefighter | former cruise ship IT Admin",
+  image: "https://0.gravatar.com/avatar/81bd313ec2ac3c6f3dc26e1fbbef0956204ec37c3b0254b94491e4c5e004ba1e?size=256",
 }
 
 export const links = {
-  image: profile.src,
-  title: "@hashirshoaeb",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
+  image: "https://0.gravatar.com/avatar/81bd313ec2ac3c6f3dc26e1fbbef0956204ec37c3b0254b94491e4c5e004ba1e?size=256",
+  title: "@plehr",
+  description: "Cloud Engineer | Firefighter | former cruise ship IT Admin",
   cards: [
     {
       title: "My website",
-      link: "https://hashirshoaeb.com/",
-    },
-    {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
-    },
-    {
-      title: "StarBook App",
-      link: "https://starbook.dev/",
-    },
-    {
-      title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
+      link: "https://plehr.de/",
     },
     {
       title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
+      link: "https://linkedin.com/in/plehr",
+    },
+    {
+      title: "My GitHub",
+      link: "https://github.com/plehr/",
     },
   ]
 }

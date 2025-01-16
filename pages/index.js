@@ -24,19 +24,6 @@ export default function Home() {
         title={about.title}
         description={about.description}
       />
-      <Skills
-        title={work.title}
-        cards={work.cards}
-      />
-      <Projects
-        title={projects.title}
-        cards={projects.cards}
-      />
-      <Contact
-        title={contact.title}
-        description={contact.description}
-        buttons={contact.buttons}
-      />
       <Footer />
     </Fragment>
   );
