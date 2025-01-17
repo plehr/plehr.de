@@ -24,7 +24,7 @@ console.warn(
   // "Are you publishing to <username>.github.io/<repository> ? then [basePath] should be /<repository>.\n" +
   `P.S. [basePath] is {${basePath}}`
 )
-
+/*
 const nextConfig = {
   reactStrictMode: true,
   basePath: basePath,
@@ -33,5 +33,8 @@ const nextConfig = {
     basePath: basePath,
   },
 }
+  */
+
+const nextConfig = {  reactStrictMode: true}
 
 module.exports = nextConfig
