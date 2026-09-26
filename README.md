@@ -27,7 +27,6 @@ Danach http://localhost:8080 öffnen.
 
 ## Deployment
 
-GitHub Actions (`.github/workflows/deployment.yml`) validiert das HTML und veröffentlicht bei jedem Push auf `main` parallel:
+GitHub Actions (`.github/workflows/deployment.yml`) validiert das HTML und veröffentlicht bei jedem Push auf `main`:
 
 - **Container:** Image für `linux/amd64` und `linux/arm64` nach `ghcr.io/plehr/plehr.de:latest`, inklusive `nginx.conf` und Security-Headern.
-- **GitHub Pages:** Inhalt von `site/` per `actions/deploy-pages`. Voraussetzung: *Settings → Pages → Source: GitHub Actions*. Pages setzt keine HTTP-Header, daher steht die CSP zusätzlich als `<meta>` in den Seiten.
